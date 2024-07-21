@@ -33,22 +33,19 @@ python3 example.py 0.1 0.6
 
 mlflow ui
 
+pip install dagshub
+
+
 ## For Dagshub:
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow
-MLFLOW_TRACKING_USERNAME=entbappy
-MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef0
-python script.py
+import dagshub
+dagshub.init(repo_owner='saideep2000', repo_name='Wine-Tasting-Elasticnet-MLFlow', mlflow=True)
 
-Run this to export as env variables:
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
 
-```bash
+https://dagshub.com/saideep2000/Wine-Tasting-Elasticnet-MLFlow.mlflow
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow
-
-export MLFLOW_TRACKING_USERNAME=entbappy 
-
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
-
-```
 
