@@ -9,6 +9,9 @@
 
 **[Wine Tasting Mlops](https://www.youtube.com/watch?v=-NOIWzjJK-4&ab_channel=DSwithBappy)**
 
+![Parallel Coordinates Plot](assets/image.png)
+*Parallel Coordinates Plot*
+
 ## Steps Taken:
 
 
