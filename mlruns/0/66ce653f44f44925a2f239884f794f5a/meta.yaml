@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/saideepsamineni/Neu/Projects/Wine-Tasting-Elasticnet-Mlops/mlruns/0/66ce653f44f44925a2f239884f794f5a/artifacts
+end_time: 1721590842217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66ce653f44f44925a2f239884f794f5a
+run_name: ambitious-kite-513
+run_uuid: 66ce653f44f44925a2f239884f794f5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721590838380
+status: 3
+tags: []
+user_id: saideepsamineni
