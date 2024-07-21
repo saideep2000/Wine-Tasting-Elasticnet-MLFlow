@@ -3,14 +3,13 @@
 ## Tools and Technologies:
 
 - MLFlow
-- 
 
 
 ## Resources
 
 **[Wine Tasting Mlops](https://www.youtube.com/watch?v=-NOIWzjJK-4&ab_channel=DSwithBappy)**
 
-## Details:
+## Steps Taken:
 
 
 conda create -n mlops python=3.8 -y 
